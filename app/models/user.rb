@@ -5,9 +5,6 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :trackable, :validatable
 
   has_many :pins
-<<<<<<< HEAD
 
   validates :name, presence: true
-=======
->>>>>>> FETCH_HEAD
 end
